@@ -34,14 +34,10 @@ Delimitem o tema específico por área, tempo, espaço ou aplicação.
 **Passo 2 — Formulação da problemática**
 Transformem o tema em uma pergunta que expresse o problema de pesquisa.
 
-*Exemplo:* "Quais os principais impactos da árvore de decisão em IA para definir estratégias de marketing para segmentação de clientes?"
-
 > Resposta: Qual é o impacto do tamanho e da estrutura de uma rede logística no desempenho computacional (tempo de execução, uso de memória e número de vértices explorados) dos algoritmos Dijkstra e A* na busca do menor caminho?
 
 **Passo 3 — Transformar a pergunta em objetivo geral**
 Reescrevam a pergunta como uma afirmação, usando um verbo no infinitivo.
-
-*Exemplo:* "Analisar os principais impactos da árvore de decisão em IA para definir estratégias de marketing para segmentação de clientes."
 
 > Resposta: Analisar o impacto do tamanho e da estrutura de uma rede logística no desempenho computacional dos algoritmos Dijkstra e A* na busca do menor caminho.
 
@@ -51,9 +47,6 @@ Revisem o objetivo geral seguindo os critérios abaixo:
 - [X] É claro, direto e mensurável?
 - [X] Evitei verbos fracos como "estudar" ou "conhecer"?
 - [X] Usei um verbo forte (explorar, analisar, investigar, compreender, avaliar, propor, desenvolver, aplicar, identificar)?
-
-**Modelo genérico de referência:**
-> "[Verbo no infinitivo] a aplicação de [conceito ou técnica] em [contexto específico], com o propósito de [finalidade principal]."
 
 **Outros exemplos de objetivos gerais (referência):**
 - Investigar o uso de árvores de decisão para prever exportações de vinho no Brasil, com base em dados da Embrapa entre 2000 e 2025.
@@ -84,13 +77,6 @@ Copiem aqui o objetivo geral definido na Parte 1 (deve conceituar os assuntos ab
 
 Escrevam de 4 a 5 assuntos que serão abordados na pesquisa.
 
-*Exemplo (para o tema de árvore de decisão em IA e marketing):*
-- Conceituar árvore de decisão
-- Conceituar inteligência artificial
-- Quais são as estratégias de marketing para segmentação de clientes?
-- Analisar a relação existente entre árvore de decisão e inteligência artificial
-- Apresentar quais são os resultados das estratégias de marketing para segmentação de clientes sem e com IA
-
 **Assuntos do grupo:**
 1. Resposta: Conceituar algoritmos de busca em grafos e complexidade computacional
 2. Resposta: Conceituar o algoritmo de Dijkstra e seu funcionamento na busca do menor
@@ -101,15 +87,6 @@ Escrevam de 4 a 5 assuntos que serão abordados na pesquisa.
 ### 2.3 Estrutura básica do artigo
 
 Definam a estrutura do artigo, incluindo introdução e considerações finais.
-
-*Exemplo de estrutura:*
-- Introdução
-- Conceituar árvore de decisão
-- Conceituar inteligência artificial
-- Quais são as estratégias de marketing para segmentação de clientes
-- Analisar a relação existente entre árvore de decisão e inteligência artificial
-- Apresentar quais são os resultados das estratégias de marketing para segmentação de clientes sem e com IA
-- Considerações finais
 
 **Estrutura do grupo:**
 - Introdução
@@ -123,15 +100,6 @@ Definam a estrutura do artigo, incluindo introdução e considerações finais.
 ### 2.4 Objetivos específicos classificados
 
 Classifiquem os objetivos específicos em **Conceituais** e **Técnicos**.
-
-*Exemplo:*
-- **Objetivos Conceituais**
-  - Conceituar árvore de decisão
-  - Conceituar inteligência artificial
-- **Objetivos Técnicos**
-  - Quais são as estratégias de marketing para segmentação de clientes
-  - Analisar a relação existente entre árvore de decisão e inteligência artificial
-  - Apresentar quais são os resultados das estratégias de marketing para segmentação de clientes sem e com IA
 
 **Objetivos específicos do grupo:**
 
