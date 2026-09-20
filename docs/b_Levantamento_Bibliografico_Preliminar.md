@@ -108,7 +108,7 @@
 | Classificados como "Excluir" | `[6]` |
 | Classificados como "Dúvida" | `[1]` |
 
-**Como as dúvidas foram resolvidas?** *(ex.: discussão em grupo, consulta ao orientador)*
+**Como as dúvidas foram resolvidas?**
 `[Discussão em grupo]`
 
 *Responsável(is) por esta triagem: `[Diana Kellen de Almeida Malaquias, Gabriela Yuri Kobayashi]`*
@@ -205,5 +205,3 @@
 - [X] Quadro-resumo de participação preenchido (soma = 100%)
 
 ---
-
-

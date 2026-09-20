@@ -20,24 +20,19 @@
 
 ### 1.1 Tema específico do grupo
 
-**Pergunta:** Qual foi o tema específico que o grupo definiu?
-
 > Resposta: Complexidade e desempenho de Dijkstra e A* na busca do menor caminho em redes logísticas
 
 ### 1.2 Passo a passo para chegar ao objetivo geral
 
 **Passo 1 — Delimitação do tema**
-Delimitem o tema específico por área, tempo, espaço ou aplicação.
 
 > Resposta: O estudo se delimita à análise comparativa de desempenho computacional entre os algoritmos Dijkstra e A* na busca do menor caminho em redes logísticas de diferentes tamanhos e estruturas
 
 **Passo 2 — Formulação da problemática**
-Transformem o tema em uma pergunta que expresse o problema de pesquisa.
 
 > Resposta: Qual é o impacto do tamanho e da estrutura de uma rede logística no desempenho computacional (tempo de execução, uso de memória e número de vértices explorados) dos algoritmos Dijkstra e A* na busca do menor caminho?
 
 **Passo 3 — Transformar a pergunta em objetivo geral**
-Reescrevam a pergunta como uma afirmação, usando um verbo no infinitivo.
 
 > Resposta: Analisar o impacto do tamanho e da estrutura de uma rede logística no desempenho computacional dos algoritmos Dijkstra e A* na busca do menor caminho.
 
@@ -69,13 +64,9 @@ Revisem o objetivo geral seguindo os critérios abaixo:
 
 ### 2.1 Objetivo geral pesquisado
 
-Copiem aqui o objetivo geral definido na Parte 1 (deve conceituar os assuntos abordados no tema).
-
 > Resposta: Analisar o impacto do tamanho e da estrutura de redes logísticas no desempenho computacional dos algoritmos Dijkstra e A*, considerando tempo de execução, uso de memória e número de vértices explorados.
 
 ### 2.2 Assuntos da pesquisa
-
-Escrevam de 4 a 5 assuntos que serão abordados na pesquisa.
 
 **Assuntos do grupo:**
 1. Resposta: Conceituar algoritmos de busca em grafos e complexidade computacional
@@ -85,8 +76,6 @@ Escrevam de 4 a 5 assuntos que serão abordados na pesquisa.
 5. Resposta: Comparar o desempenho computacional de Dijkstra e A* em diferentes cenários de rede logística
 
 ### 2.3 Estrutura básica do artigo
-
-Definam a estrutura do artigo, incluindo introdução e considerações finais.
 
 **Estrutura do grupo:**
 - Introdução
@@ -98,8 +87,6 @@ Definam a estrutura do artigo, incluindo introdução e considerações finais.
 - Considerações finais
 
 ### 2.4 Objetivos específicos classificados
-
-Classifiquem os objetivos específicos em **Conceituais** e **Técnicos**.
 
 **Objetivos específicos do grupo:**
 
@@ -122,5 +109,3 @@ Classifiquem os objetivos específicos em **Conceituais** e **Técnicos**.
 - [X] Foram listados de 4 a 5 assuntos do artigo
 - [X] A estrutura do artigo foi definida (introdução, desenvolvimento, considerações finais)
 - [X] Os objetivos específicos foram classificados em Conceituais e Técnicos
-
-
