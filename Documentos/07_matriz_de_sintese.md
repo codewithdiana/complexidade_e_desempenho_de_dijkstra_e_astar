@@ -6,15 +6,15 @@ Compare os artigos e organize a revisão por temas ou eixos. Não produza apenas
 
 ## Eixos da revisão
 
-1. `[Eixo ou subtema 1]`
-2. `[Eixo ou subtema 2]`
-3. `[Eixo ou subtema 3, se necessário]`
+1. `[Desempenho comparado de Dijkstra e A* (tempo, nós explorados e complexidade)]`
+2. `[Heurística, tamanho e estrutura da rede]`
+3. `[Aplicação em contextos logísticos e escolha da métrica de custo]`
 
 ## Matriz de síntese
 
 | Eixo | Artigos relacionados | Convergências | Divergências | Limitações | Lacunas |
 |---|---|---|---|---|---|
-| `[preencher]` | `[autores/anos]` | `[preencher]` | `[preencher]` | `[preencher]` | `[preencher]` |
+| `[Desempenho comparado de Dijkstra e A*]` | `[autores/anos]` | `[preencher]` | `[preencher]` | `[preencher]` | `[preencher]` |
 
 ## Roteiro da revisão da literatura
 
