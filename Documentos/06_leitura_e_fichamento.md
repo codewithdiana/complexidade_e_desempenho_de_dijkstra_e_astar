@@ -58,7 +58,7 @@
 - [X] A conexão com o tema foi explicada.
 - [ ] Toda citação literal contém página.
 
------
+- - - -
 
 ## Identificação do artigo
 
@@ -119,6 +119,8 @@
 - [X] A conexão com o tema foi explicada.
 - [ ] Toda citação literal contém página.
 
+- - - -
+
 ## Identificação do artigo
 
 - Referência completa: `RIOS, Marcel L.; S. NETO, Francisco S.; NETTO, José F. Magalhães. Análise e Comparação dos Algoritmos de Dijkstra e A-Estrela na Descoberta de Caminhos Mínimos em Mapas de Grade. In: Encontro de Teoria da Computação (ETC), 1., 2016, Porto Alegre. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2016. p. 887–890]`
@@ -167,61 +169,9 @@
 - [x] O método e os resultados foram identificados.
 - [x] As limitações foram registradas.
 - [x] A conexão com o tema foi explicada.
-- [ ] Toda citação literal contém página.
+- [ ] Toda citação literal contém
 
------
-
-## Identificação do artigo
-
-- Referência completa: `[ALDHAFFERI, Nahier. Time and Memory Trade-Offs in Shortest-Path Algorithms Across Graph Topologies: A*, Bellman–Ford, Dijkstra, AI-Augmented A* and a Neural Baseline. Computers, v. 14, n. 12, artigo 545, 2025]`
-- DOI ou URL: `[https://doi.org/10.3390/computers14120545]`
-- Base de origem: `[Google Scholar]`
-- Leitor responsável: `[Gabriela Yuri Kobayashi]`
-- Data da leitura: `[09/10/2006]`
-
-## Fichamento
-
-### Problema investigado
-
-`[Como o tamanho e a estrutura dos grafos influenciam o tempo de execução, o consumo de memória e a eficiência dos algoritmos de caminho mínimo]`
-
-### Objetivo do estudo
-
-`[Comparar o desempenho dos algoritmos Dijkstra, A*, Bellman-Ford e métodos com inteligência artificial, analisando tempo, memória e quantidade de nós explorados em diferentes grafos]`
-
-### Método utilizado
-
-`[O autor realizou experimentos computacionais utilizando grafos de diferentes tamanhos e estruturas. Os algoritmos foram executados repetidamente nas mesmas condições, comparando tempo de execução, consumo de memória e nós explorados. O A* utilizou heurísticas para orientar a busca, enquanto o Dijkstra considerou os custos acumulados dos caminhos]`
-
-### Contexto, amostra ou dados
-
-`[Foram utilizados grafos gerados computacionalmente, incluindo grades, grafos aleatórios e grafos livres de escala, com diferentes tamanhos e pesos nas conexões]`
-
-### Principais resultados
-
-`[O A* explorou menos nós e apresentou vantagens de desempenho em grafos estruturados, especialmente quando utilizou uma heurística adequada. Em grafos sem uma heurística eficiente, seu desempenho foi semelhante ao do Dijkstra. O consumo de memória dos dois algoritmos também foi parecido em diversos experimentos]`
-
-### Limitações apresentadas
-
-`[Os experimentos foram realizados principalmente com grafos gerados artificialmente e implementações em Python sem otimizações avançadas. Por isso, os resultados podem ser diferentes em redes logísticas reais ou em sistemas maiores]`
-
-### Contribuição para o nosso artigo
-
-`[O estudo ajuda a responder como o tamanho e a estrutura das redes influenciam o desempenho de Dijkstra e A*. Também demonstra que a eficiência do A* depende da qualidade da heurística utilizada, o que é importante para sua aplicação em redes logísticas]`
-
-### Comentário crítico
-
-`[O artigo apresenta uma comparação abrangente, considerando tempo, memória e diferentes estruturas de grafos. Seu ponto forte é demonstrar que o A* nem sempre supera o Dijkstra. Entretanto, a ausência de testes específicos em redes logísticas reais limita a aplicação direta dos resultados ao contexto de entregas]`
-
-## Checklist
-
-- [x] O artigo foi lido além do resumo.
-- [x] O método e os resultados foram identificados.
-- [x] As limitações foram registradas.
-- [x] A conexão com o tema foi explicada.
-- [ ] Toda citação literal contém página.
-
-# Etapa 6 Leitura e fichamento
+- - - -
 
 ## Identificação do artigo
 
@@ -279,7 +229,7 @@
 - [X] A conexão com o tema foi explicada.
 - [ ] Toda citação literal contém página.
 
------
+- - - -
 
 ## Identificação do artigo
 
