@@ -18,6 +18,7 @@ Defina o objetivo geral e os objetivos específicos do artigo.
 1. `[Investigar o uso de árvores de decisão para prever exportações de vinho no Brasil, com base em dados da Embrapa entre 2000 e 2025.]`
 2. `[Analisar o impacto da classificação automática de vinhos finos e de mesa por meio de algoritmos de inteligência artificial, a fim de apoiar estratégias de exportação.]`
 3. `[Desenvolver um modelo computacional baseado em árvore binária de busca para otimizar a recomendação de rotas de ambulância em cenários urbanos.]`
+4. `[Comparar o desempenho computacional de Dijkstra e A* em diferentes cenários de rede logística.]`
 
 
 ## Quadro de alinhamento
