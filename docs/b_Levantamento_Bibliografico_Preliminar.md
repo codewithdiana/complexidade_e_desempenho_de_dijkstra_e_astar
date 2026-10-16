@@ -102,7 +102,7 @@
 
 | Item de controle | Quantidade |
 |---|---|
-| Total de resultados antes da triagem | `[18]` |
+| Total de resultados antes da triagem | `[16]` |
 | Duplicatas removidas | `[2]` |
 | Classificados como "Incluir" | `[7]` |
 | Classificados como "Excluir" | `[6]` |
@@ -120,8 +120,8 @@
 | Item de controle | Quantidade |
 |---|---|
 | Total de artigos que entraram nesta filtragem | `[7]` |
-| Aprovados (conjunto definitivo para fichamento) | `[6]` |
-| Excluídos nesta etapa | `[1]` |
+| Aprovados (conjunto definitivo para fichamento) | `[5]` |
+| Excluídos nesta etapa | `[2]` |
 
 **Principais motivos de exclusão nesta filtragem:**
 - `[Artigos antigos]`
@@ -138,7 +138,6 @@
 3. `[LUSIANI, Anie; SARTIKA, Euis; BINARTO, Agus; HABINUDDIN, Endang; AZIS, Irfani. Determination of the Fastest Path on Logistics Distribution by Using Dijkstra Algorithm. In: Proceedings of the 2nd International Seminar of Science and Applied Technology (ISSAT 2021). Advances in Engineering Research, v. 207, p. 246–250, 2021. DOI: 10.2991/aer.k.211106.039.]`
 4. `[ALDHAFFERI, Nahier. Time and Memory Trade-Offs in Shortest-Path Algorithms Across Graph Topologies: A, Bellman–Ford, Dijkstra, AI-Augmented A and a Neural Baseline. Computers, v. 14, n. 12, p. 545, 2025. DOI: 10.3390/computers14120545.]`
 5. `[RIOS, Marcel L.; S. NETO, Francisco S.; NETTO, José F. Magalhães. Análise e Comparação dos Algoritmos de Dijkstra e A-Estrela na Descoberta de Caminhos Mínimos em Mapas de Grade. In: Encontro de Teoria da Computação (ETC), 1., 2016, Porto Alegre. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2016. p. 887–890. DOI: 10.5753/etc.2016.9852.]`
-6. `[ALDHAFFERI, Nahier. Time and Memory Trade-Offs in Shortest-Path Algorithms Across Graph Topologies: A*, Bellman–Ford, Dijkstra, AI-Augmented A* and a Neural Baseline. *Computers*, v. 14, n. 12, p. 545, 2025. DOI: 10.3390/computers14120545.]`
 
 ---
 
