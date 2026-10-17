@@ -30,6 +30,10 @@ Escreva a primeira versão completa do artigo seguindo a estrutura abaixo.
 
 `[Compare estudos, resultados, métodos e limitações.]`
 
+### `[Eixo 3]`
+
+`[Compare estudos, resultados, métodos e limitações.]`
+
 ### Síntese crítica
 
 `[Apresente tendências, convergências, divergências e lacunas.]`
