@@ -1,9 +1,5 @@
 # Etapa 4 Planejamento da busca bibliográfica
 
-## Solicitação
-
-Planeje como os artigos serão localizados e selecionados antes de iniciar a busca definitiva.
-
 ## Conceitos e termos
 
 | Conceito principal | Sinônimos em português | Termos em inglês |

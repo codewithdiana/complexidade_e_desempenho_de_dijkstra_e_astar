@@ -1,9 +1,5 @@
 # Etapa 1 Tema e delimitação
 
-## Solicitação
-
-Defina um tema específico, relevante e viável para o artigo de revisão bibliográfica.
-
 ## Identificação
 
 - Grupo: `[Grupo 1]`

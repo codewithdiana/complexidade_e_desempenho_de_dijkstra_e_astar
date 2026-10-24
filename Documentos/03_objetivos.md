@@ -1,23 +1,19 @@
 # Etapa 3 Objetivo geral e objetivos específicos
 
-## Solicitação
-
-Defina o objetivo geral e os objetivos específicos do artigo.
-
 ## Problema de pesquisa
 
 `[Qual é o impacto do tamanho e da estrutura de uma rede logística no desempenho computacional (tempo de execução, uso de memória e número de vértices explorados) dos algoritmos Dijkstra e A* na busca do menor caminho?]`
 
 ## Objetivo geral
 
-'[Analisar o impacto do tamanho e da estrutura de uma rede logística no desempenho computacional dos algoritmos Dijkstra e A* na busca do menor caminho.]'
+`[Analisar o impacto do tamanho e da estrutura de redes logísticas no desempenho computacional dos algoritmos Dijkstra e A*, considerando tempo de execução, uso de memória e número de vértices explorados.]`
 
 
 ## Objetivos específicos
 
-1. `[Investigar o uso de árvores de decisão para prever exportações de vinho no Brasil, com base em dados da Embrapa entre 2000 e 2025.]`
-2. `[Analisar o impacto da classificação automática de vinhos finos e de mesa por meio de algoritmos de inteligência artificial, a fim de apoiar estratégias de exportação.]`
-3. `[Desenvolver um modelo computacional baseado em árvore binária de busca para otimizar a recomendação de rotas de ambulância em cenários urbanos.]`
+1. `[Apresentar algoritmos de busca em grafos e complexidade computacional (tempo e espaço).]`
+2. `[Apresentar os algoritmos de Dijkstra e A*, incluindo o papel da heurística na busca informada.]`
+3. `[Analisar a relação entre o tamanho e a estrutura de uma rede logística e o desempenho dos algoritmos (tempo, memória e vértices explorados).]`
 4. `[Comparar o desempenho computacional de Dijkstra e A* em diferentes cenários de rede logística.]`
 
 
@@ -26,8 +22,8 @@ Defina o objetivo geral e os objetivos específicos do artigo.
 | Elemento | Texto |
 |---|---|
 | Problema | `[Qual é o impacto do tamanho e da estrutura de uma rede logística no desempenho computacional (tempo de execução, uso de memória e número de vértices explorados) dos algoritmos Dijkstra e A* na busca do menor caminho?]` |
-| Objetivo geral | '[Analisar o impacto do tamanho e da estrutura de uma rede logística no desempenho computacional dos algoritmos Dijkstra e A* na busca do menor caminho.]' |
-| Resultado esperado | '[Uma análise comparativa que mostre como o tamanho e a estrutura da rede afetam o desempenho de Dijkstra e A*, indicando em quais cenários cada algoritmo é mais eficiente.]` |
+| Objetivo geral | `[Analisar o impacto do tamanho e da estrutura de redes logísticas no desempenho computacional dos algoritmos Dijkstra e A*, considerando tempo de execução, uso de memória e número de vértices explorados.]` |
+| Resultado esperado | `[Uma análise comparativa que mostre como o tamanho e a estrutura da rede afetam o desempenho de Dijkstra e A*, indicando em quais cenários cada algoritmo é mais eficiente.]` |
 
 ## Produto da etapa
 

@@ -1,9 +1,5 @@
 # Etapa 5 Busca e triagem dos artigos
 
-## Solicitação
-
-Registre as buscas realizadas e justifique a inclusão ou exclusão de cada artigo.
-
 ## Registro das buscas
 
 | Base | String usada | Data | Filtros | Resultados encontrados | Responsável |
@@ -13,9 +9,9 @@ Registre as buscas realizadas e justifique a inclusão ou exclusão de cada arti
 | `[Atlantis Press]` | `[3]` | `[("Graph algorithms" AND "logistics networks") AND ("performance" OR "duration" OR "interval")]` |`[28/08/2026]` | `[5]` | `[Diana]` |
 ## Resumo da triagem
 
-- Total de resultados encontrados: `[16]`
-- Duplicatas removidas: `[2]`
-- Artigos avaliados por título e resumo: `[7]`
+- Total de resultados encontrados: `[14]`
+- Duplicatas removidas: `[3]`
+- Artigos avaliados por título e resumo: `[11]`
 - Artigos selecionados para leitura completa: `[5]`
 - Artigos incluídos no conjunto final: `[1]`
 
@@ -28,7 +24,7 @@ Registre as buscas realizadas e justifique a inclusão ou exclusão de cada arti
 | `[Lusiani et al. (2021)]` | `[Incluir]` | `[Aprovar]` | `[Inclusão: aplica Dijkstra a um caso real de distribuição logística e mostra o efeito de usar tempo de viagem em vez de distância como peso do grafo.]` |
 | `[Rios, Neto e Netto (2016)]` | `[Incluir]` | `[Aprovar]` | `[Inclusão: compara Dijkstra e A* em mapas de grade de tamanhos diferentes e discute a complexidade (mesma ordem no pior caso, com menos operações no A*), o que se liga ao tamanho da rede e à complexidade.]` |
 | `[Aldhafferi (2025)]` | `[Incluir]` | `[Aprovar]` | `[Inclusão: é o que responde mais diretamente à pergunta de pesquisa, pois compara Dijkstra, A* e outros algoritmos em grades, grafos aleatórios e grafos livres de escala, medindo tempo, memória e nós expandidos.]` |
- | `[Ammar et al. (2016)]` | `[Excluir]` | `[—]` | `[Exclusão: fora do escopo.]` |
+| `[Ammar et al. (2016)]` | `[Excluir]` | `[—]` | `[Exclusão: fora do escopo.]` |
 | `[Soltani et al. (2002)]` | `[Excluir]` | `[—]` | `[Exclusão: publicado em 2002, anterior ao limite de 2010 definido nos critérios, e não tratado como referência clássica indispensável.]` |
 | `[Elshaer et al. (2025)]` | `[Incluir]` | `[Excluir]` | `[Exclusão: texto completo indisponível (acesso pago).]` |
 | `[Verma et al. (ano)]` | `[Incluir]` | `[Excluir]` | `[Exclusão: texto completo indisponível.]` |

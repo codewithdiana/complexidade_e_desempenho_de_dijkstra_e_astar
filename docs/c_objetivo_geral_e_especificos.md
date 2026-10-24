@@ -1,10 +1,6 @@
 # Template de Definição de Objetivos da Pesquisa Científica
 ### Computabilidade e Complexidade de Algoritmos
 
-> **Como usar este template:** respondam cada pergunta no espaço indicado por `> Resposta:`. Sigam o passo a passo e usem os exemplos apenas como referência de estrutura — o conteúdo deve ser sobre o tema do grupo.
-
----
-
 ## Identificação do Grupo
 
 | Campo | Informação |

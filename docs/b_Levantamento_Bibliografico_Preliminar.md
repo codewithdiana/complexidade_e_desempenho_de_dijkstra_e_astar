@@ -1,9 +1,5 @@
 # Etapa (b) — Levantamento Bibliográfico
 
-> **Como preencher:** este documento deve ser preenchido **em conjunto pelo grupo**, mas com registro individualizado da contribuição de cada integrante em cada passo. Substitua os campos entre `[ ]` pelas informações do seu grupo. Não apague as instruções em itálico — elas ajudam na avaliação do orientador.
-
----
-
 ## 1. Identificação do Grupo
 
 | Campo | Informação |
@@ -102,10 +98,10 @@
 
 | Item de controle | Quantidade |
 |---|---|
-| Total de resultados antes da triagem | `[16]` |
-| Duplicatas removidas | `[2]` |
-| Classificados como "Incluir" | `[7]` |
-| Classificados como "Excluir" | `[6]` |
+| Total de resultados antes da triagem | `[14]` |
+| Duplicatas removidas | `[3]` |
+| Classificados como "Incluir" | `[5]` |
+| Classificados como "Excluir" | `[5]` |
 | Classificados como "Dúvida" | `[1]` |
 
 **Como as dúvidas foram resolvidas?**

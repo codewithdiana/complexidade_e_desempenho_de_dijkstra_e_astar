@@ -15,13 +15,11 @@ Preencha os arquivos na ordem indicada. Não apague os títulos nem as perguntas
 
 ## Identificação geral
 
-- Curso e disciplina: `[preencher]`
-- Professor ou orientador: `[preencher]`
-- Grupo: `[preencher]`
-- Integrantes: `[preencher]`
-- Data de início: `[dd/mm/aaaa]`
-
-
+- Curso e disciplina: `[Ciência da Computação/]`
+- Professor ou orientador: `[Andrea Ono Sakai]`
+- Grupo: `[01]`
+- Integrantes: `[Diana Kellen de Almeida Malaquias, Gabriela Yuri Kobayashu, Júlia Moreno da Silva]`
+- Data de início: `[18/08/2026]`
 
 ## Regra de entrega
 

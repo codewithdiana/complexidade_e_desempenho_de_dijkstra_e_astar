@@ -1,9 +1,5 @@
 # Etapa 2 Problema de pesquisa
 
-## Solicitação
-
-Transforme o tema em uma pergunta clara, específica e respondível por meio da literatura científica.
-
 ## Tema aprovado
 
 `[Complexidade e desempenho de Dijkstra e A* na busca do menor caminho em redes logísticas]`
