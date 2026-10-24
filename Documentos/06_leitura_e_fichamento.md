@@ -20,17 +20,17 @@
 
 ### Método utilizado
 
-- A rede viária é modelada como grafo ponderado com 7 nós (A a G) e 11 arestas.
-- Dijkstra usa relaxamento de arestas, d(v) = min(d(v), d(u) + w(u,v)). O A* usa f(n) = g(n) + h(n).
-- Os dois algoritmos rodam sobre os mesmos dados.
-- Cálculo manual (Tabelas 4 e 5) e implementação em Python para medir nós explorados e tempo.
+`- A rede viária é modelada como grafo ponderado com 7 nós (A a G) e 11 arestas.`
+`- Dijkstra usa relaxamento de arestas, d(v) = min(d(v), d(u) + w(u,v)). O A* usa f(n) = g(n) + h(n).`
+`- Os dois algoritmos rodam sobre os mesmos dados.`
+`- Cálculo manual (Tabelas 4 e 5) e implementação em Python para medir nós explorados e tempo.`
 
 ### Contexto, amostra ou dados
 
-- É um único par origem-destino em Medan.
-- Os pesos das arestas g(n), em km, são de estimativas do Google Maps.
-- A heurística h(n) são distâncias em linha reta de cada nó ao destino, também medidas no Google Maps.
-- Os pesos são estáticos (sem trânsito).
+`- É um único par origem-destino em Medan.`
+`- Os pesos das arestas g(n), em km, são de estimativas do Google Maps.`
+`- A heurística h(n) são distâncias em linha reta de cada nó ao destino, também medidas no Google Maps.`
+`- Os pesos são estáticos (sem trânsito).`
 
 ### Principais resultados
 
@@ -38,9 +38,9 @@
 
 ### Limitações apresentadas
 
-- O grafo é muito pequeno e a diferença de tempo pode refletir o overhead do Python e a máquina usada, os resultados podem não generalizar para redes urbanas grandes.
-- Os dados do Google Maps podem divergir do comportamento real de viagem.
-- Os pesos são estáticos, sem congestionamento, incidentes ou semáforos.
+`- O grafo é muito pequeno e a diferença de tempo pode refletir o overhead do Python e a máquina usada, os resultados podem não generalizar para redes urbanas grandes.`
+`- Os dados do Google Maps podem divergir do comportamento real de viagem.`
+`- Os pesos são estáticos, sem congestionamento, incidentes ou semáforos.`
 
 ### Contribuição para o nosso artigo
 
@@ -80,20 +80,20 @@
 
 ### Método utilizado
 
-- Heurística h = h_trans + h_rot:
- - h_trans = distância euclidiana ÷ velocidade máxima do AGV;
- - h_rot = custo de giro por radiano × limite inferior do ângulo mínimo de rotação (soma de três ângulos, θ1 + mín(θ2 + θ3)).
-- Provas formais de monotonicidade (Apêndice 2) e admissibilidade (Apêndice 3).
-- Estudo comparativo numérico: número de iterações do A* para todos os pares origem-destino de cada layout, comparando com Bae e Chung (2018, igual a Bae e Chung 2019 e Lian e Xie 2019) e uma versão modificada de Cui et al. (2018).
-- Métrica (Eq. 17): número médio ponderado de iterações por elemento do caminho. O valor ideal é 1.
+`- Heurística h = h_trans + h_rot:`
+ `- h_trans = distância euclidiana ÷ velocidade máxima do AGV;`
+ `- h_rot = custo de giro por radiano × limite inferior do ângulo mínimo de rotação (soma de três ângulos, θ1 + mín(θ2 + θ3)).`
+`- Provas formais de monotonicidade (Apêndice 2) e admissibilidade (Apêndice 3).`
+`- Estudo comparativo numérico: número de iterações do A* para todos os pares origem-destino de cada layout comparando com Bae e Chung (2018, igual a Bae e Chung 2019 e Lian e Xie 2019) e uma versão modificada de Cui et al. (2018).`
+`- Métrica (Eq. 17): número médio ponderado de iterações por elemento do caminho. O valor ideal é 1.`
 
 ### Contexto, amostra ou dados
 
-- Dados sintéticos, sem casos reais.
-- Layouts retangulares, hexagonais e arbitrários de aproximadamente 10×10 a 40×40 elementos.
-- Cenários com 0% e 20% dos elementos bloqueados. Nos bloqueados foram geradas 40 combinações aleatórias para calcular intervalos de confiança de 95%.
-- Parâmetros base (Tabela 2): velocidade máxima de 2 m/s, elemento de grade de 2 m, velocidade de rotação máxima de π/2 rad/s.
-- Varredura de parâmetros (Fig. 7): rotação de π/4 a π rad/s e translação de 0,5 a 5 m/s, numa grade retangular 30×30 sem bloqueios.
+`- Dados sintéticos, sem casos reais.`
+`- Layouts retangulares, hexagonais e arbitrários de aproximadamente 10×10 a 40×40 elementos.`
+`- Cenários com 0% e 20% dos elementos bloqueados. Nos bloqueados foram geradas 40 combinações aleatórias para calcular intervalos de confiança de 95%.`
+`- Parâmetros base (Tabela 2): velocidade máxima de 2 m/s, elemento de grade de 2 m, velocidade de rotação máxima de π/2 rad/s.`
+`- Varredura de parâmetros (Fig. 7): rotação de π/4 a π rad/s e translação de 0,5 a 5 m/s, numa grade retangular 30×30 sem bloqueios.`
 
 ### Principais resultados
 
@@ -193,17 +193,17 @@
 
 ### Método utilizado
 
-- A rede é modelada como grafo ponderado conexo, não direcionado, com 8 vértices (áreas de passagem, do armazém de Cibitung ao de Bojong) e 16 arestas. O peso de cada aresta é o tempo de viagem em minutos (Tabela 1).
-- Dijkstra em três passos: marca a origem como visitada, atualiza o peso dos vértices adjacentes (de "não encontrado" para "encontrado") e visita o de menor peso. Repete até o destino (vértice 8) ser visitado.
-- Execução manual (Tabelas 2 a 5 e Figuras 3 a 6), conferida em Matlab com a matriz de adjacência do grafo (Figura 7).
-- Como segunda verificação, os autores citam o resultado do algoritmo de Prim sobre os mesmos dados, publicado em outro trabalho deles (ref. [11], em indonésio).
+`- A rede é modelada como grafo ponderado conexo, não direcionado, com 8 vértices (áreas de passagem, do armazém de Cibitung ao de Bojong) e 16 arestas. O peso de cada aresta é o tempo de viagem em minutos (Tabela 1).`
+`- Dijkstra em três passos: marca a origem como visitada, atualiza o peso dos vértices adjacentes (de "não encontrado" para "encontrado") e visita o de menor peso. Repete até o destino (vértice 8) ser visitado.`
+`- Execução manual (Tabelas 2 a 5 e Figuras 3 a 6), conferida em Matlab com a matriz de adjacência do grafo (Figura 7).`
+`- Como segunda verificação, os autores citam o resultado do algoritmo de Prim sobre os mesmos dados, publicado em outro trabalho deles (ref. [11], em indonésio).`
 
 ### Contexto, amostra ou dados
 
-- É um único par origem-destino, de Bekasi a Cianjur, em Java Ocidental.
-- Os tempos de viagem vêm do escritório da Bulog em Java Ocidental e do Google Maps, coletados durante a pandemia de Covid-19.
-- Os pesos são estáticos (um valor por aresta, sem variação por horário ou trânsito).
-- O artigo não informa como o Google Maps foi consultado (horário, tipo de veículo).
+`- É um único par origem-destino, de Bekasi a Cianjur, em Java Ocidental.`
+`- Os tempos de viagem vêm do escritório da Bulog em Java Ocidental e do Google Maps, coletados durante a pandemia de Covid-19.`
+`- Os pesos são estáticos (um valor por aresta, sem variação por horário ou trânsito).`
+`- O artigo não informa como o Google Maps foi consultado (horário, tipo de veículo).`
 
 ### Principais resultados
 
@@ -251,20 +251,20 @@
 
 ### Método utilizado
 
-- Problema de menor caminho entre um par origem-destino, em grafos com pesos não negativos, Uniform(1, 10).
-- Três famílias de grafos: grade de 4 vizinhos (A* com distância de Manhattan), Erdős-Rényi (p = 8/n) e livre de escala de Barabási-Albert (m = 4). Nas duas últimas o A* usa heurística nula, o que o torna equivalente ao Dijkstra.
-- Várias instâncias independentes e pares origem-destino aleatórios por configuração, com sementes fixas. Os resultados são medianas, com IQR e desvio padrão, e comparações pareadas.
-- Implementação em Python (NetworkX, heapq), sem otimizações de baixo nível. Tempo medido com timer monotônico e memória com psutil e memory_profiler.
-- Heurística aprendida: Gradient Boosting Regressor (grau e coeficiente de agrupamento do nó atual e do alvo) e GNN, treinados com distâncias calculadas pelo Dijkstra. Para evitar superestimação, usa h_α = α·h, com α = 0,2 no caso Erdős-Rényi.
-- Testes de robustez: grafos mais densos, ruído multiplicativo de 0,9 a 1,1 nos pesos e testes com pesos negativos para o Bellman-Ford.
+`- Problema de menor caminho entre um par origem-destino, em grafos com pesos não negativos, Uniform(1, 10).`
+`- Três famílias de grafos: grade de 4 vizinhos (A* com distância de Manhattan), Erdős-Rényi (p = 8/n) e livre de escala de Barabási-Albert (m = 4). Nas duas últimas o A* usa heurística nula, o que o torna equivalente ao Dijkstra.`
+`- Várias instâncias independentes e pares origem-destino aleatórios por configuração, com sementes fixas. Os resultados são medianas, com IQR e desvio padrão, e comparações pareadas.`
+`- Implementação em Python (NetworkX, heapq), sem otimizações de baixo nível. Tempo medido com timer monotônico e memória com psutil e memory_profiler.`
+`- Heurística aprendida: Gradient Boosting Regressor (grau e coeficiente de agrupamento do nó atual e do alvo) e GNN, treinados com distâncias calculadas pelo Dijkstra. Para evitar superestimação, usa h_α = α·h, com α = 0,2 no caso Erdős-Rényi.`
+`- Testes de robustez: grafos mais densos, ruído multiplicativo de 0,9 a 1,1 nos pesos e testes com pesos negativos para o Bellman-Ford.`
 
 ### Contexto, amostra ou dados
 
-- Dados sintéticos, sem redes reais (nem viárias).
-- Tamanhos: n ∈ {200, 400, 600, 1600} na metodologia. O resumo fala em grades e grafos aleatórios de 100 e 1000 nós e em até 103.103 nós (inconsistência, ver comentário crítico).
-- O A* com heurística aprendida é avaliado principalmente em grafos Erdős-Rényi com n = 600.
-- O número de instâncias por configuração aparece só como "K", sem valor.
-- Hardware informado no resumo: Intel Xeon Gold 6248R, NVIDIA Tesla V100 (32 GB), 256 GB de RAM, Ubuntu 20.04. A GPU é usada só na inferência neural.
+`- Dados sintéticos, sem redes reais (nem viárias).`
+`- Tamanhos: n ∈ {200, 400, 600, 1600} na metodologia. O resumo fala em grades e grafos aleatórios de 100 e 1000 nós e em até 103.103 nós (inconsistência, ver comentário crítico).`
+`- O A* com heurística aprendida é avaliado principalmente em grafos Erdős-Rényi com n = 600.`
+`- O número de instâncias por configuração aparece só como "K", sem valor.`
+`- Hardware informado no resumo: Intel Xeon Gold 6248R, NVIDIA Tesla V100 (32 GB), 256 GB de RAM, Ubuntu 20.04. A GPU é usada só na inferência neural.`
 
 ### Principais resultados
 
@@ -272,11 +272,11 @@
 
 ### Limitações apresentadas
 
-- Implementação em Python não otimizada: os tempos absolutos podem não valer para implementações compiladas ou com GPU (Seção 5.7).
-- Escala pequena (centenas de nós), sem estudo de escalabilidade em grafos grandes.
-- Características do modelo de IA só locais (grau e agrupamento), o que limita o poder preditivo em grafos aleatórios. Os ganhos da IA ficam restritos a um cenário (Erdős-Rényi, n = 600).
-- O autor não afirma admissibilidade universal da heurística aprendida, só que não observou violações nos testes.
-- A inferência do modelo tem custo que pode anular a redução de expansões em grafos pequenos.
+`- Implementação em Python não otimizada: os tempos absolutos podem não valer para implementações compiladas ou com GPU (Seção 5.7).`
+`- Escala pequena (centenas de nós), sem estudo de escalabilidade em grafos grandes.`
+`- Características do modelo de IA só locais (grau e agrupamento), o que limita o poder preditivo em grafos aleatórios. Os ganhos da IA ficam restritos a um cenário (Erdős-Rényi, n = 600).`
+`- O autor não afirma admissibilidade universal da heurística aprendida, só que não observou violações nos testes.`
+`- A inferência do modelo tem custo que pode anular a redução de expansões em grafos pequenos.`
 
 ### Contribuição para o nosso artigo
 
